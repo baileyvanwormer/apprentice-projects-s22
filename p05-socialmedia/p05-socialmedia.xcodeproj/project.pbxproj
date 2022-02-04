@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62897F6127ACC9C200D2922A /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62897F6027ACC9C200D2922A /* CommentsView.swift */; };
 		BD7155A027A8C81800B51278 /* p05_socialmediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71559F27A8C81800B51278 /* p05_socialmediaApp.swift */; };
 		BD7155A227A8C81800B51278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7155A127A8C81800B51278 /* ContentView.swift */; };
 		BD7155A427A8C81D00B51278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7155A327A8C81D00B51278 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62897F6027ACC9C200D2922A /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		BD71559C27A8C81800B51278 /* p05-socialmedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "p05-socialmedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD71559F27A8C81800B51278 /* p05_socialmediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p05_socialmediaApp.swift; sourceTree = "<group>"; };
 		BD7155A127A8C81800B51278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				BD7155AD27A8C8A300B51278 /* PostView.swift */,
+				62897F6027ACC9C200D2922A /* CommentsView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				BDB54AB027AB469F00575FAB /* ProfileView.swift in Sources */,
 				BD7155B127A8C90600B51278 /* View+bothColorSchemes.swift in Sources */,
+				62897F6127ACC9C200D2922A /* CommentsView.swift in Sources */,
 				BD7155A227A8C81800B51278 /* ContentView.swift in Sources */,
 				BD7155AE27A8C8A300B51278 /* PostView.swift in Sources */,
 				BD7155A027A8C81800B51278 /* p05_socialmediaApp.swift in Sources */,
@@ -353,6 +357,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,6 +387,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

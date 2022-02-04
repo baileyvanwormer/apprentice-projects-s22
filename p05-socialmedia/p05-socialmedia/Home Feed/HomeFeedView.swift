@@ -11,12 +11,23 @@ struct HomeFeedView: View {
     let posts: [Post] = PostList.defaultPosts
     
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            ScrollView(.vertical, showsIndicators: false) {
+                LazyVStack {
+                    ForEach(posts) { post in
+                        PostView(post: post)
+                    }
+                }
+                .navigationBarTitle("bluebird")
+                }
+        }
     }
 }
 
 struct HomeFeedView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeFeedView()
+        NavigationView {
+            HomeFeedView()
+        }
     }
 }
