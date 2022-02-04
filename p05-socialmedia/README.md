@@ -6,9 +6,6 @@ This project is a portion of <a href="https://appteamcarolina.com">App Team Caro
 
 ## My Implementation
 ```
-![Simulator Screen Shot - iPhone 13 - 2022-02-04 at 09 44 15](https://user-images.githubusercontent.com/89269750/152548433-d3dccb2c-89f6-4999-9822-bcca29722a22.png)
-![Simulator Screen Shot - iPhone 13 - 2022-02-04 at 09 44 08](https://user-images.githubusercontent.com/89269750/152548449-eccc9546-3ebb-4f1e-86e4-dcc371e5b1be.png)
-
 ```
 ```
 add description of project here
